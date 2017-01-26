@@ -10,6 +10,14 @@ var coffeeSources = ['components/coffee/*.coffee'];
 var jsSources = ['components/scripts/*.js'];
 var sassSources = ['components/sass/style.scss'];
 
+gulp.task('default', ['coffee', 'js','compass', 'log', 'watch'])
+
+gulp.task('watch' , function(){
+    gulp.watch(coffeeSources, ['coffee']);
+    gulp.watch(jsSources, ['js']);
+    gulp.watch('components/sass/*.scss', ['compass']);
+})
+
 gulp.task('log', function(){
     gutil.log('Gulp Taken')
 })
