@@ -27,7 +27,10 @@ TBD
 
 ### Commandline
 https://learnpythonthehardway.org/book/appendixa.html
+
 http://www.gnu.org/software/bash/manual/bashref.html
+
 https://learncodethehardway.org/unix/bash_cheat_sheet.pdf
+
 ### Learning Tools
 https://www.repetitionsapp.com/study
