@@ -4,7 +4,10 @@
   "description": "A tour of modern web application development languages and tools, based upon the loved \"Tour de Flex\" application killed by Steve \"I hate flash\" Jobs.",
   "main": "app.js",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.8"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
