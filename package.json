@@ -1,0 +1,21 @@
+{
+  "name": "tour-de-webapp",
+  "version": "0.0.1",
+  "description": "A tour of modern web application development languages and tools, based upon the loved \"Tour de Flex\" application killed by Steve \"I hate flash\" Jobs.",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takes12no1/Tour-de-web-app.git"
+  },
+  "author": "Mark Coleman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/takes12no1/Tour-de-web-app/issues"
+  },
+  "homepage": "https://github.com/takes12no1/Tour-de-web-app#readme"
+}
