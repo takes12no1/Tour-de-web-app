@@ -15,12 +15,12 @@
   },
   "scripts": {
     "prestart": "node buildScripts/startmessage.js",
-    "start": "npm-run-all --parallel security-check open-src",
-    "open-src": "node buildScripts/srcServer.js",
+    "start": "npm-run-all --parallel security-check open:src",
+    "open:src": "node buildScripts/srcServer.js",
     "security-check": "nsp check",
     "localtunnel": "lt --port 3000",
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"share": "npm-run-all --parallel open-src localtunnel"
+		"share": "npm-run-all --parallel open:src localtunnel"
   },
   "repository": {
     "type": "git",
