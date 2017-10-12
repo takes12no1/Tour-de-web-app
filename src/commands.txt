@@ -1,0 +1,11 @@
+
+
+-->Start the Express Server
+node buildScripts/srcServer.js
+
+-->start the local tunnel to create shareable URL
+lt --port 3000
+
+-->Instal xyz and save to dev dependencies in package.json
+npm install localtunnel -save-dev
+npm uninstall localtunnel -save-dev

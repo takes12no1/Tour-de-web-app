@@ -1,0 +1,48 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'share' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.4
+4 verbose run-script [ 'preshare', 'share', 'postshare' ]
+5 info lifecycle tour-de-webapp@0.0.1~preshare: tour-de-webapp@0.0.1
+6 silly lifecycle tour-de-webapp@0.0.1~preshare: no script for preshare, continuing
+7 info lifecycle tour-de-webapp@0.0.1~share: tour-de-webapp@0.0.1
+8 verbose lifecycle tour-de-webapp@0.0.1~share: unsafe-perm in lifecycle true
+9 verbose lifecycle tour-de-webapp@0.0.1~share: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\mcoleman\Tour-de-web-app\node_modules\.bin;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Anaconda3;C:\Program Files\Anaconda3\Scripts;C:\Program Files\Anaconda3\Library\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\nodejs\;C:\Users\mcoleman\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Users\mcoleman\AppData\Roaming\npm
+10 verbose lifecycle tour-de-webapp@0.0.1~share: CWD: C:\Users\mcoleman\Tour-de-web-app
+11 silly lifecycle tour-de-webapp@0.0.1~share: Args: [ '/d /s /c', 'npm-run-all --parallel open-src localtunnel' ]
+12 silly lifecycle tour-de-webapp@0.0.1~share: Returned: code: 1  signal: null
+13 info lifecycle tour-de-webapp@0.0.1~share: Failed to exec share script
+14 verbose stack Error: tour-de-webapp@0.0.1 share: `npm-run-all --parallel open-src localtunnel`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:920:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
+15 verbose pkgid tour-de-webapp@0.0.1
+16 verbose cwd C:\Users\mcoleman\Tour-de-web-app
+17 error Windows_NT 10.0.15063
+18 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "share"
+19 error node v6.11.4
+20 error npm  v3.10.10
+21 error code ELIFECYCLE
+22 error tour-de-webapp@0.0.1 share: `npm-run-all --parallel open-src localtunnel`
+22 error Exit status 1
+23 error Failed at the tour-de-webapp@0.0.1 share script 'npm-run-all --parallel open-src localtunnel'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the tour-de-webapp package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     npm-run-all --parallel open-src localtunnel
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs tour-de-webapp
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls tour-de-webapp
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
